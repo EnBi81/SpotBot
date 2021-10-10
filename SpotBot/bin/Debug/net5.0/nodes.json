@@ -1,0 +1,14 @@
+[
+  {
+    "Host": "localhost",
+	"Authorization": "youshallnotpass",
+	"Port": 7000,
+	"Use": 0
+	},
+  {
+    "Host": "spotbotlava.herokuapp.com",
+    "Authorization": "youshallnotpass",
+    "Port": 80,
+	"Use": 1
+  }
+]

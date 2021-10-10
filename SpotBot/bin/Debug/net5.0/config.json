@@ -1,0 +1,11 @@
+{
+  "Token1": "",
+  "Token": "",
+  "Connectionstring": "",
+  "Clientid": "",
+  "Clientsecret": "",
+  "InviteLink": "https://discord.com/api/oauth2/authorize?client_id=&permissions=3147840&scope=bot",
+  "Webpage": "http://localhost:5000/login",
+  "JavaLocation": "",
+  "Port": 7000
+}           

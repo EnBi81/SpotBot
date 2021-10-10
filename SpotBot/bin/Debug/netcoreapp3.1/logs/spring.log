@@ -1,0 +1,104 @@
+2020-09-24 14:43:40.163  INFO 20456 --- [main] lavalink.server.Launcher                 : 
+
+[32m       .  [31m _                  _ _       _    [32m__ _ _
+[32m      /\\ [31m| | __ ___   ____ _| (_)_ __ | | __[32m\ \ \ \
+[32m     ( ( )[31m| |/ _` \ \ / / _` | | | '_ \| |/ /[32m \ \ \ \
+[32m      \\/ [31m| | (_| |\ V / (_| | | | | | |   < [32m  ) ) ) )
+[32m       '  [31m|_|\__,_| \_/ \__,_|_|_|_| |_|_|\_\[32m / / / /
+[0m    =========================================[32m/_/_/_/[0m
+
+	Version:        3.3.1.1
+	Build:          1075
+	Build time:     13.07.2020 09:09:23 UTC
+	Branch          master
+	Commit:         f6a1a2a
+	Commit time:    13.07.2020 09:04:37 UTC
+	JVM:            11.0.8
+	Lavaplayer      1.3.50
+
+2020-09-24 14:43:40.369  INFO 20456 --- [main] lavalink.server.Launcher                 : Starting Launcher on DESKTOP-MM2458E with PID 20456 (C:\Users\enbi8\source\repos\SpotBot\SpotBot\bin\Debug\netcoreapp3.1\Lavalink.jar started by enbi8 in C:\Users\enbi8\source\repos\SpotBot\SpotBot\bin\Debug\netcoreapp3.1)
+2020-09-24 14:43:40.370  INFO 20456 --- [main] lavalink.server.Launcher                 : No active profile set, falling back to default profiles: default
+2020-09-24 14:43:40.492  WARN 20456 --- [background-preinit] o.s.h.c.j.Jackson2ObjectMapperBuilder    : For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2020-09-24 14:43:42.263  WARN 20456 --- [main] io.undertow.websockets.jsr               : UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2020-09-24 14:43:42.287  INFO 20456 --- [main] io.undertow.servlet                      : Initializing Spring embedded WebApplicationContext
+2020-09-24 14:43:42.288  INFO 20456 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1861 ms
+2020-09-24 14:43:42.683  WARN 20456 --- [main] l.server.config.SentryConfiguration      : Turning off sentry
+2020-09-24 14:43:42.695  INFO 20456 --- [main] l.s.c.AudioSendFactoryConfiguration      : OS: Windows 10, Arch: amd64
+2020-09-24 14:43:42.696  INFO 20456 --- [main] l.s.c.AudioSendFactoryConfiguration      : JDA-NAS supported system detected. Enabled native audio sending.
+2020-09-24 14:43:42.696  INFO 20456 --- [main] l.s.c.AudioSendFactoryConfiguration      : Setting buffer to 400ms
+2020-09-24 14:43:42.697  INFO 20456 --- [main] l.s.c.AudioSendFactoryConfiguration      : Setting playlist load limit to 6
+2020-09-24 14:43:43.100  INFO 20456 --- [main] c.s.d.l.tools.GarbageCollectionMonitor   : GC monitoring enabled, reporting results every 2 minutes.
+2020-09-24 14:43:43.530  INFO 20456 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-24 14:43:43.935  INFO 20456 --- [main] org.xnio                                 : XNIO version 3.3.8.Final
+2020-09-24 14:43:43.948  INFO 20456 --- [main] org.xnio.nio                             : XNIO NIO Implementation Version 3.3.8.Final
+2020-09-24 14:43:44.035  INFO 20456 --- [main] o.s.b.w.e.u.UndertowServletWebServer     : Undertow started on port(s) 7000 (http) with context path ''
+2020-09-24 14:43:44.041  INFO 20456 --- [main] lavalink.server.Launcher                 : Started Launcher in 4.781 seconds (JVM running for 5.58)
+2020-09-24 14:43:44.206  INFO 20456 --- [XNIO-1 task-1] io.undertow.servlet                      : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-09-24 14:43:44.208  INFO 20456 --- [XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-09-24 14:43:44.217  INFO 20456 --- [XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 9 ms
+2020-09-24 14:43:44.243  INFO 20456 --- [XNIO-1 task-1] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /0:0:0:0:0:0:0:1:57703
+2020-09-24 14:43:44.409  INFO 20456 --- [XNIO-1 task-1] lavalink.server.io.SocketServer          : Connection successfully established from /0:0:0:0:0:0:0:1:57703
+2020-09-24 14:43:47.774  INFO 20456 --- [XNIO-1 task-2] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /0:0:0:0:0:0:0:1:57731
+2020-09-24 14:43:47.779  INFO 20456 --- [XNIO-1 task-2] lavalink.server.io.SocketServer          : Connection successfully established from /0:0:0:0:0:0:0:1:57731
+2020-09-24 14:43:53.389  INFO 20456 --- [XNIO-1 task-3] l.server.player.AudioLoaderRestHandler   : GET /loadtracks
+2020-09-24 14:43:54.307  INFO 20456 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist epic music
+2020-09-24 14:43:54.322 ERROR 20456 --- [XNIO-1 task-4] io.undertow.request                      : UT005023: Exception handling request to /loadtracks
+
+org.springframework.web.util.NestedServletException: Request processing failed; nested exception is java.util.concurrent.CompletionException: java.lang.NullPointerException
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1013) ~[spring-webmvc-5.1.9.RELEASE.jar!/:5.1.9.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897) ~[spring-webmvc-5.1.9.RELEASE.jar!/:5.1.9.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:645) ~[javax.servlet-api-4.0.1.jar!/:4.0.1]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882) ~[spring-webmvc-5.1.9.RELEASE.jar!/:5.1.9.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:750) ~[javax.servlet-api-4.0.1.jar!/:4.0.1]
+	at io.undertow.servlet.handlers.ServletHandler.handleRequest(ServletHandler.java:74) ~[undertow-servlet-2.0.26.Final.jar!/:2.0.26.Final]
+	at io.undertow.servlet.handlers.FilterHandler.handleRequest(FilterHandler.java:81) ~[undertow-servlet-2.0.26.Final.jar!/:2.0.26.Final]
+	at io.undertow.servlet.handlers.security.ServletSecurityRoleHandler.handleRequest(ServletSecurityRoleHandler.java:62) ~[undertow-servlet-2.0.26.Final.jar!/:2.0.26.Final]
+	at io.undertow.servlet.handlers.ServletChain$1.handleRequest(ServletChain.java:68) ~[undertow-servlet-2.0.26.Final.jar!/:2.0.26.Final]
+	at io.undertow.servlet.handlers.ServletDispatchingHandler.handleRequest(ServletDispatchingHandler.java:36) ~[undertow-servlet-2.0.26.Final.jar!/:2.0.26.Final]
+	at io.undertow.servlet.handlers.RedirectDirHandler.handleRequest(RedirectDirHandler.java:68) ~[undertow-servlet-2.0.26.Final.jar!/:2.0.26.Final]
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43) ~[undertow-core-2.0.26.Final.jar!/:2.0.26.Final]
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43) ~[undertow-core-2.0.26.Final.jar!/:2.0.26.Final]
+	at io.undertow.servlet.handlers.ServletInitialHandler.handleFirstRequest(ServletInitialHandler.java:269) ~[undertow-servlet-2.0.26.Final.jar!/:2.0.26.Final]
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$100(ServletInitialHandler.java:78) ~[undertow-servlet-2.0.26.Final.jar!/:2.0.26.Final]
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:133) ~[undertow-servlet-2.0.26.Final.jar!/:2.0.26.Final]
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:130) ~[undertow-servlet-2.0.26.Final.jar!/:2.0.26.Final]
+	at io.undertow.servlet.core.ServletRequestContextThreadSetupAction$1.call(ServletRequestContextThreadSetupAction.java:48) ~[undertow-servlet-2.0.26.Final.jar!/:2.0.26.Final]
+	at io.undertow.servlet.core.ContextClassLoaderSetupAction$1.call(ContextClassLoaderSetupAction.java:43) ~[undertow-servlet-2.0.26.Final.jar!/:2.0.26.Final]
+	at io.undertow.servlet.handlers.ServletInitialHandler.dispatchRequest(ServletInitialHandler.java:249) ~[undertow-servlet-2.0.26.Final.jar!/:2.0.26.Final]
+	at io.undertow.servlet.handlers.ServletInitialHandler.dispatchToPath(ServletInitialHandler.java:186) ~[undertow-servlet-2.0.26.Final.jar!/:2.0.26.Final]
+	at io.undertow.servlet.spec.AsyncContextImpl$2$1.handleRequest(AsyncContextImpl.java:194) ~[undertow-servlet-2.0.26.Final.jar!/:2.0.26.Final]
+	at io.undertow.server.Connectors.executeRootHandler(Connectors.java:376) ~[undertow-core-2.0.26.Final.jar!/:2.0.26.Final]
+	at io.undertow.servlet.spec.AsyncContextImpl$2.run(AsyncContextImpl.java:191) ~[undertow-servlet-2.0.26.Final.jar!/:2.0.26.Final]
+	at io.undertow.servlet.spec.AsyncContextImpl$6.run(AsyncContextImpl.java:465) ~[undertow-servlet-2.0.26.Final.jar!/:2.0.26.Final]
+	at io.undertow.servlet.spec.AsyncContextImpl$TaskDispatchRunnable.run(AsyncContextImpl.java:584) ~[undertow-servlet-2.0.26.Final.jar!/:2.0.26.Final]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:834) ~[na:na]
+Caused by: java.util.concurrent.CompletionException: java.lang.NullPointerException
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:314) ~[na:na]
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:319) ~[na:na]
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:645) ~[na:na]
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506) ~[na:na]
+	at java.base/java.util.concurrent.CompletableFuture.complete(CompletableFuture.java:2073) ~[na:na]
+	at lavalink.server.player.AudioLoader.playlistLoaded(AudioLoader.java:89) ~[classes!/:na]
+	at com.sedmelluq.discord.lavaplayer.player.DefaultAudioPlayerManager.checkSourcesForItemOnce(DefaultAudioPlayerManager.java:447) ~[lavaplayer-1.3.50.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.player.DefaultAudioPlayerManager.checkSourcesForItem(DefaultAudioPlayerManager.java:419) ~[lavaplayer-1.3.50.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.player.DefaultAudioPlayerManager.lambda$createItemLoader$0(DefaultAudioPlayerManager.java:218) ~[lavaplayer-1.3.50.jar!/:na]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264) ~[na:na]
+	... 3 common frames omitted
+Caused by: java.lang.NullPointerException: null
+	at java.base/java.io.DataOutputStream.writeUTF(DataOutputStream.java:347) ~[na:na]
+	at java.base/java.io.DataOutputStream.writeUTF(DataOutputStream.java:323) ~[na:na]
+	at com.sedmelluq.discord.lavaplayer.player.DefaultAudioPlayerManager.encodeTrack(DefaultAudioPlayerManager.java:249) ~[lavaplayer-1.3.50.jar!/:na]
+	at lavalink.server.util.Util.toMessage(Util.java:49) ~[classes!/:na]
+	at lavalink.server.player.AudioLoaderRestHandler.lambda$encodeLoadResult$0(AudioLoaderRestHandler.java:88) ~[classes!/:na]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541) ~[na:na]
+	at java.base/java.util.Collections$UnmodifiableCollection.forEach(Collections.java:1085) ~[na:na]
+	at lavalink.server.player.AudioLoaderRestHandler.encodeLoadResult(AudioLoaderRestHandler.java:83) ~[classes!/:na]
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:642) ~[na:na]
+	... 10 common frames omitted
+
+2020-09-24 14:45:40.752  INFO 20456 --- [XNIO-1 I/O-6] lavalink.server.io.SocketServer          : Connection closed from /0:0:0:0:0:0:0:1:57731 -- CloseStatus[code=1006, reason=]
+2020-09-24 14:45:40.752  INFO 20456 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : Connection closed from /0:0:0:0:0:0:0:1:57703 -- CloseStatus[code=1006, reason=]
+2020-09-24 14:45:40.752  INFO 20456 --- [XNIO-1 I/O-6] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2020-09-24 14:45:40.752  INFO 20456 --- [XNIO-1 I/O-2] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
